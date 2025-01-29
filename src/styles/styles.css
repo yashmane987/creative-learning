@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero{
+    width: 100%;
+    font-family: sans-serif;
+    position: relative;
+  }
+  
+  nav{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0BB78;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 0; 
+    
+  }
+  
+  .logo{
+    width: 190px;
+    cursor: pointer;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    font-size: 16px;
+    margin-bottom: 0%;
+  
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: #585756;
+  }
+  
+  nav ul li a:hover{
+    color: #800000;
+  }
+  
+
+  
+  /* Dropdown styles */
+  .dropdown {
+    position: relative;
+  
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Aligns dropdown below the parent */
+    left: 0;
+     background-color: black; 
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+    border-radius: 4px;
+     z-index: 1000; 
+     min-width: 150px; 
+     --bs-dropdown-min-width: 6rem !important;
+     overflow: hidden; 
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+    padding: 0; 
+  }
+
+  
+  
+  .dropdown-menu li a {
+    color: #585756;
+    background-color: #F0BB78;
+    text-decoration: none;
+    margin: 0%;
+    display: block;
+    padding: 8px 12px; /* Adjusted padding for consistent spacing */
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #F0BB78;
+    border-radius: 4px;
+
+  }
+  
+  /* Show dropdown on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+
+    padding: 0;
+  }
+  
+  
+  .contact-btn {
+    display: inline-block;
+    width: 80px; 
+    padding: 8px 12px; 
+    background-color: #960303; 
+    color: white; 
+    text-decoration: none;
+    font-size: 14px; 
+    font-weight: bold;
+    border-radius: 8px; 
+    margin-right: 20px; 
+    margin-bottom: 0%;
+  }
+  .contact-btn:hover {
+    background-color: #A52A2A;
+    border-color: #FFF0DC; /* Change border color on hover */
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+  }
+  
+  
+  footer{
+    background-color: #F0BB78;
+     border-radius: 10px; 
+  }
+  .footerContainer{
+    width: 100%;
+    padding: 50px 25px 15px ;
+  }
+  .socialIcons{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+  }
+  
+  .socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+  }
+  /* Hover affect on social media icon */
+  .socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+  }
+  .socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+  }
+  .footerNav{
+    margin: 30px 0;
+    font-size:12px;
+  }
+  .footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  .footerNav ul li a{
+    color:#585756;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: 0.5s;
+  
+  }
+  .footerNav ul li a:hover{
+    opacity: 1;
+    color: #800000;
+  }
+  .footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .footerBottom p{
+    height: 20px;
+    color: #D9EAFD;
+    font-size: 16px;
+  }
+  .designer{
+    font-size: large;
+    color:white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
+  @media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+  }
+  
+  .carousel {
+    width: 100%; /* Increased width for responsiveness */
+    margin: 15px auto; /* Centers the carousel */
+    position: relative; /* Ensures child elements are positioned correctly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Prevents images from spilling out */
+    background-color: #fff; /* Optional background */
+    padding: 0%;
+    margin-top: 10px;
+  }
+  
+  .carousel img {
+    width: 100%; /* Ensures the image spans the width of the carousel */
+    max-height: 450px; /* Prevents images from exceeding this height */
+    object-fit: cover; /* Ensures images are proportionally scaled and cropped */
+  }
+  
+  .carousel-caption {
+    position: absolute; /* Positions the caption over the image */
+    bottom: 20px; /* Adjusts distance from the bottom */
+    left: 50%; /* Centers the caption horizontally */
+    transform: translateX(-50%); /* Perfect horizontal centering */
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    padding: 15px 20px; 
+    border-radius: 10px;
+    max-width: 80%; /* Restricts caption width for better layout */
+    text-align: center; /* Centers the text */
+    margin-left: 36%;
+    
+  }
+  
+  .carousel-caption h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #F0BB78;
+    margin: 0;
+  }
+  
+  .carousel-caption p {
+    font-size: 1rem;
+    color: #D9EAFD;
+    margin: 5px 0 0;
+  }
+  
+  .carousel-indicators li {
+    background-color: #800000; /* Custom indicator color */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%); /* Ensures visibility against any background */
+  }
