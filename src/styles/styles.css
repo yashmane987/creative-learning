@@ -122,7 +122,41 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
   }
   
+  /* learinginfoimg */
+
+.main-div{
+  background-color: #ffff;
+  margin-top: 30px ;
+  margin-bottom: 6.5%;
+  }
   
+  
+  .img-box{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .box{
+    margin-top: 23%;
+  }
+  
+  .row{
+    display: flex;
+    padding-left: 11%;
+  
+  }
+  
+  h5{
+    padding-top: 15px;
+    margin: auto;
+    font-size:1.7rem;
+    font-weight: 700 !important;
+    }
+  
+
+
+
   footer{
     background-color: #F0BB78;
      border-radius: 10px; 

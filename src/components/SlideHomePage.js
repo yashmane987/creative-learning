@@ -3,15 +3,20 @@ import Carousel from "react-bootstrap/Carousel";
 import slider from '../images/slider.jpeg';
 import slider2 from '../images/slider2.jpeg';
 import slider3 from '../images/slider3.jpeg';
+import home1 from "../images/home1.png";
+import home2 from "../images/home2.png";
+import home3 from "../images/home3.png";
+import home4 from "../images/home4.png";
 
 function SliderHomePage() {
  
   return (
+    <div>
     <Carousel>
       <Carousel.Item interval={1000}>
       <img
           className="learn"
-          src={slider1}
+          src={slider}
           alt="Image One"
         />
         <Carousel.Caption>
@@ -22,7 +27,7 @@ function SliderHomePage() {
       <Carousel.Item interval={1000}>
       <img
           className="learn"
-          src={slider}
+          src={slider1}
           alt="Image two"
         />
         <Carousel.Caption>
@@ -53,6 +58,38 @@ function SliderHomePage() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+
+
+<div className="main-div">
+  <div className="row">
+    <div className="col-sm-3">
+      <div className="box">
+        <img src={home1} className="img-box" />
+        <h5>The Experts</h5>
+      </div>
+    </div>
+    <div className="col-sm-3">
+      <div className="box">
+        <img src={home2} className="img-box" />
+        <h5>Free Notes</h5>
+      </div>
+    </div>
+    <div className="col-sm-3">
+      <div className="box">
+        <img src={home3} className="img-box" />
+        <h5>Pre-Recorded Videos</h5>
+      </div>
+    </div>
+    <div className="col-sm-3">
+      <div className="box">
+        <img src={home4} className="img-box" />
+        <h5>2000+ Enrolled</h5>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
   );
 }
 
