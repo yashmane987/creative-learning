@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
   }
+  /* Navabr Css  */
   
   .hero{
     width: 100%;
-    font-family: sans-serif;
     position: relative;
   }
   
@@ -59,16 +59,14 @@
     position: absolute;
     top: 100%; /* Aligns dropdown below the parent */
     left: 0;
-     background-color: black; 
-     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: black; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     list-style: none;
     padding: 0; 
     margin: 0;
     border-radius: 4px;
-     z-index: 1000; 
      min-width: 150px; 
      --bs-dropdown-min-width: 6rem !important;
-     overflow: hidden; 
   }
   
   .dropdown-menu li {
@@ -84,20 +82,18 @@
     text-decoration: none;
     margin: 0%;
     display: block;
-    padding: 8px 12px; /* Adjusted padding for consistent spacing */
-    white-space: nowrap; /* Prevents text from wrapping */
+    padding: 8px 12px; 
   }
   
   .dropdown-menu li a:hover {
     background-color: #F0BB78;
-    border-radius: 4px;
+    border-radius: 6px;
 
   }
   
   /* Show dropdown on hover */
   .dropdown:hover .dropdown-menu {
     display: block;
-
     padding: 0;
   }
   
@@ -117,9 +113,9 @@
   }
   .contact-btn:hover {
     background-color: #A52A2A;
-    border-color: #FFF0DC; /* Change border color on hover */
+    border-color: #FFF0DC; 
     transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
   }
   
   /* learinginfoimg */
@@ -154,17 +150,19 @@
     font-weight: 700 !important;
     }
   
-
+/* footer css */
 
 
   footer{
     background-color: #F0BB78;
      border-radius: 10px; 
   }
+
   .footerContainer{
     width: 100%;
     padding: 50px 25px 15px ;
   }
+
   .socialIcons{
     display: flex;
     justify-content: center;
@@ -178,11 +176,13 @@
     margin: 10px;
     border-radius: 50%;
   }
+
   .socialIcons a i{
     font-size: 2em;
     color: black;
     opacity: 0,9;
   }
+
   /* Hover affect on social media icon */
   .socialIcons a:hover{
     background-color: #111;
@@ -192,15 +192,18 @@
     color: white;
     transition: 0.5s;
   }
+
   .footerNav{
     margin: 30px 0;
     font-size:12px;
   }
+
   .footerNav ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
   }
+
   .footerNav ul li a{
     color:#585756;
     margin: 20px;
@@ -210,7 +213,7 @@
   
   }
   .footerNav ul li a:hover{
-    opacity: 1;
+    opacity: 1.5;
     color: #800000;
   }
   .footerBottom{
@@ -247,33 +250,33 @@
   }
   
   .carousel {
-    width: 100%; /* Increased width for responsiveness */
-    margin: 15px auto; /* Centers the carousel */
-    position: relative; /* Ensures child elements are positioned correctly */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
-    border-radius: 10px; /* Rounded corners */
-    overflow: hidden; /* Prevents images from spilling out */
-    background-color: #fff; /* Optional background */
+    width: 100%; 
+    margin: 15px auto; 
+    position: relative; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    overflow: hidden; 
+    background-color: #fff; 
     padding: 0%;
     margin-top: 10px;
   }
   
   .carousel img {
-    width: 100%; /* Ensures the image spans the width of the carousel */
-    max-height: 450px; /* Prevents images from exceeding this height */
-    object-fit: cover; /* Ensures images are proportionally scaled and cropped */
+    width: 100%; 
+    max-height: 450px; 
+    object-fit: cover; 
   }
   
   .carousel-caption {
-    position: absolute; /* Positions the caption over the image */
-    bottom: 20px; /* Adjusts distance from the bottom */
-    left: 50%; /* Centers the caption horizontally */
-    transform: translateX(-50%); /* Perfect horizontal centering */
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background: rgba(0, 0, 0, 0.6); 
     padding: 15px 20px; 
     border-radius: 10px;
-    max-width: 80%; /* Restricts caption width for better layout */
-    text-align: center; /* Centers the text */
+    max-width: 80%; 
+    text-align: center; 
     margin-left: 36%;
     
   }
@@ -292,10 +295,10 @@
   }
   
   .carousel-indicators li {
-    background-color: #800000; /* Custom indicator color */
+    background-color: #800000; 
   }
   
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    filter: invert(100%); /* Ensures visibility against any background */
+    filter: invert(100%); 
   }
