@@ -7,9 +7,7 @@ const Homepage = () => {
   return (
     <div>
       <Navbar />
-       <div className="main-content">
         <SliderHomePage/>
-      </div>
        <Footer />  
     </div>
   );
