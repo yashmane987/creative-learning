@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+// import Navbar from '../components/Navbar';
 import SliderHomePage from '../components/SlideHomePage';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
+import AboutUspage from '../pages/AboutUspage';
 
 const Homepage = () => {
   return (
     <div>
-      <Navbar />
         <SliderHomePage/>
-       <Footer />  
+        <AboutUspage/>
     </div>
   );
 };

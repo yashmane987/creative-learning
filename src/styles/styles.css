@@ -157,6 +157,36 @@
     font-size:1.7rem;
     font-weight: 700 !important;
     }
+
+  /* about us page */
+  .container-aboutus{
+    background-color:#F9F9F9;
+    padding: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    }
+
+    #title{
+      font-weight: 700 !important;
+      color: #f37c2e !important;
+      letter-spacing: 1px !important;
+      text-align: center;
+      }
+    
+    .main-div1{
+    background-color: #F9F9F9;
+    }
+
+   .row1{
+      display: flex;
+     }
+
+    .img-box1{
+      max-width: 500px;
+      height: 310px;
+      padding-left: 60px;
+      }
+  /* aboutus end css  */
   
 /* footer css */
 

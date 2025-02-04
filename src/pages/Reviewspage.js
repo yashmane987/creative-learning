@@ -1,14 +1,11 @@
-import React from 'react'
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import React from "react";
+
 const Reviewspage = () => {
   return (
     <div>
-      <Navbar />
       <h1>Reviewspage</h1>
-      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Reviewspage
+export default Reviewspage;

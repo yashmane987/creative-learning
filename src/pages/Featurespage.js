@@ -1,13 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+
 const Featurespage = () => {
   return (
-    <div>
-      <Navbar />
-      <h1>Featurespage</h1>
-      <Footer />
-    </div>
+  <div>
+    <h1>Featurespage</h1>
+  </div>
   )
 }
 
