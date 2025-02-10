@@ -12,7 +12,7 @@ const AboutUspage = () => {
      <div className="main-div1">
        <div className="row1">
          <div className="col-6">
-           <img src={aboutusimg} className="img-box1" />
+           <img src={aboutusimg} className="img-box1"alt='' />
          </div>
          <div className="col-6">
            <h2>About Us</h2>

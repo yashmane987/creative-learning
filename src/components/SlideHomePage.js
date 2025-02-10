@@ -17,7 +17,7 @@ function SliderHomePage() {
       <img
           className="learn"
           src={slider}
-          alt="Image One"
+          alt=""
         />
         <Carousel.Caption>
           <h3>"Explore Your Creativity"</h3>
@@ -28,7 +28,7 @@ function SliderHomePage() {
       <img
           className="learn"
           src={slider1}
-          alt="Image two"
+          alt=""
         />
         <Carousel.Caption>
           <h3>"Unleash Creativity"</h3>
@@ -39,7 +39,7 @@ function SliderHomePage() {
       <img
           className="learn"
           src={slider2}
-          alt="Image three"
+          alt=""
         />
         <Carousel.Caption>
           <h3>"Unleash Creativity"</h3>
@@ -50,7 +50,7 @@ function SliderHomePage() {
       <img
           className="learn"
           src={slider3}
-          alt="Image four"
+          alt=""
         />
         <Carousel.Caption>
           <h3>"Unleash Creativity"</h3>
