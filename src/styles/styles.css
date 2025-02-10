@@ -222,12 +222,12 @@
   }
 
   /* Hover affect on social media icon */
-  .socialIcons a:hover{
-    background-color: #111;
+  .socialIcons i:hover{
+    background-color: #ece1e1;
     transition: 0.5s;
   }
-  .socialIcons a:hover i{
-    color: white;
+  .socialIcons i:hover {
+    color: rgb(16, 15, 15);
     transition: 0.5s;
   }
 
@@ -285,6 +285,11 @@
         padding: 8px;
         margin: 4px;
     }
+  }
+
+  .socialIcons{
+    gap: 25px;
+    font-size: xx-large;
   }
   
   .carousel {
