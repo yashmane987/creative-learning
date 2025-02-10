@@ -64,25 +64,25 @@ function SliderHomePage() {
   <div className="row">
     <div className="col-sm-3">
       <div className="box">
-        <img src={home1} className="img-box" />
+        <img src={home1} className="img-box" alt=""/>
         <h5>The Experts</h5>
       </div>
     </div>
     <div className="col-sm-3">
       <div className="box">
-        <img src={home2} className="img-box" />
+        <img src={home2} className="img-box" alt=""/>
         <h5>Free Notes</h5>
       </div>
     </div>
     <div className="col-sm-3">
       <div className="box">
-        <img src={home3} className="img-box" />
+        <img src={home3} className="img-box"alt="" />
         <h5>Pre-Recorded Videos</h5>
       </div>
     </div>
     <div className="col-sm-3">
       <div className="box">
-        <img src={home4} className="img-box" />
+        <img src={home4} className="img-box" alt="" />
         <h5>2000+ Enrolled</h5>
       </div>
     </div>
