@@ -1,16 +1,17 @@
-import React from "react";
+import React from 'react'
 import { Dropdown, Button, Card, Row, Col } from 'react-bootstrap';
+import cyberimg1 from '../images/cyberimg1.jpeg';
+import cyberimg2 from '../images/cyberimg2.jpeg';
+import cyberimg3 from '../images/cyberimg3.jpeg';
+import cyberimg4 from '../images/cyberimg4.jpg';
+import cyberimg5 from '../images/cyberimg5.png';
+import cyberimg6 from '../images/cyberimg6.webp';
+import cyberimg7 from '../images/cyberimg7.jpg';
+
 import { Link } from "react-router-dom";
-import imgcard1 from '../images/imgcard1.jpeg';
-import imgcard2 from '../images/imgcard2.jpeg';
-import imgcard3 from '../images/imgcard3.jpeg';
-import imgcard4 from '../images/imgcard4.jpeg';
-import imgcard5 from '../images/imgcard5.jpeg';
-import imgcard6 from '../images/imgcard6.jpeg';
-
-
-const Coursespage = () => {
+const Cybersecurity = () => {
   return (
+    <div>
     <div>
       <div className="container">
         {/* Category Dropdown */}
@@ -31,11 +32,11 @@ const Coursespage = () => {
             {/* Card 1 */}
             <Col md={4}>
               <Card className="card-box">
-                <Card.Img variant="top" src={imgcard1} />
+                <Card.Img variant="top" src={cyberimg1} />
                 <Card.Body>
-                  <Card.Title>Beginner</Card.Title>
+                  <Card.Title>Anywhere Access</Card.Title>
                   <Card.Text>
-                    8 Best Webdevelopment Courses For Beginner
+                    Access all over Mumbai. Get access to any cult pro gyms all across Mumbai.
                   </Card.Text>
                   <Button variant="primary">Read More</Button>
                 </Card.Body>
@@ -45,11 +46,11 @@ const Coursespage = () => {
             {/* Card 2 */}
             <Col md={4}>
               <Card className="card-box">
-                <Card.Img variant="top" src={imgcard2} />
+                <Card.Img variant="top" src={cyberimg2} />
                 <Card.Body>
-                  <Card.Title>Google CyberSecurity</Card.Title>
+                  <Card.Title>Unlimited Connectivity</Card.Title>
                   <Card.Text>
-                    Stay connected with unlimited possibilities in the world of tech
+                    Stay connected with unlimited possibilities in the world of tech.
                   </Card.Text>
                   <Button variant="primary">Read More</Button>
                 </Card.Body>
@@ -59,11 +60,11 @@ const Coursespage = () => {
             {/* Card 3 */}
             <Col md={4}>
               <Card className="card-box">
-                <Card.Img variant="top" src={imgcard3} />
+                <Card.Img variant="top" src={cyberimg3} />
                 <Card.Body>
-                  <Card.Title>W D Training & Course</Card.Title>
+                  <Card.Title>Innovation at Your Fingertips</Card.Title>
                   <Card.Text>
-                    Web Development Treaining & Certification Course
+                    Explore the latest innovations and stay ahead of the curve in tech.
                   </Card.Text>
                   <Button variant="primary">Read More</Button>
                 </Card.Body>
@@ -76,11 +77,11 @@ const Coursespage = () => {
             {/* Card 4 */}
             <Col md={4}>
               <Card className="card-box">
-                <Card.Img variant="top" src={imgcard4} />
+                <Card.Img variant="top" src={cyberimg4} />
                 <Card.Body>
-                  <Card.Title>Intro Of Cyber Security</Card.Title>
+                  <Card.Title>Next Gen Security</Card.Title>
                   <Card.Text>
-                    Introduction to cyber security in tech world
+                    Experience cutting-edge cybersecurity solutions tailored to your needs.
                   </Card.Text>
                   <Button variant="primary">Read More</Button>
                 </Card.Body>
@@ -90,9 +91,9 @@ const Coursespage = () => {
             {/* Card 5 */}
             <Col md={4}>
               <Card className="card-box">
-                <Card.Img variant="top" src={imgcard5} />
+                <Card.Img variant="top" src={cyberimg5} />
                 <Card.Body>
-                  <Card.Title>Web Development Cource</Card.Title>
+                  <Card.Title>Web Apps Design</Card.Title>
                   <Card.Text>
                     Build responsive web applications that work seamlessly on any device.
                   </Card.Text>
@@ -104,7 +105,7 @@ const Coursespage = () => {
             {/* Card 6 */}
             <Col md={4}>
               <Card className="card-box">
-                <Card.Img variant="top" src={imgcard6} />
+                <Card.Img variant="top" src={cyberimg6} />
                 <Card.Body>
                   <Card.Title>Cyber Solutions</Card.Title>
                   <Card.Text>
@@ -115,10 +116,28 @@ const Coursespage = () => {
               </Card>
             </Col>
           </Row>
+
+          <Row className='my-5'>
+            {/* Card 7 */}
+            <Col md={4}>
+              <Card className="card-box">
+                <Card.Img variant="top" src={cyberimg7} />
+                <Card.Body>
+                  <Card.Title>Next Gen Security</Card.Title>
+                  <Card.Text>
+                    Experience cutting-edge cybersecurity solutions tailored to your needs.
+                  </Card.Text>
+                  <Button variant="primary">Read More</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </div>
       </div>
     </div>
-  );
-};
+  </div>
 
-export default Coursespage;
+  )
+}
+
+export default Cybersecurity

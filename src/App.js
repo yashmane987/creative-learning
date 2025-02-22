@@ -13,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Footer from './components/Footer';  
 import Navbar from './components/Navbar';  
+import Cybersecurity from './pages/Cybersecurity';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/aboutus' element={<AboutUspage />} />
         <Route path='/courses' element={<Coursespage />} />
         <Route path='/certificate' element={<Certificatepage />} />
+        <Route path='/cybersecurity' element={<Cybersecurity />} />
         <Route path='/features' element={<Featurespage />} />
         <Route path='/reviews' element={<Reviewspage />} />
         <Route path='/policy' element={<Policypage />} />
