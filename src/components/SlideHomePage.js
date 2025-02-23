@@ -11,7 +11,7 @@ import home4 from "../images/home4.png";
 function SliderHomePage() {
  
   return (
-    <div>
+    <div className="slider">
     <Carousel>
       <Carousel.Item interval={1000}>
       <img

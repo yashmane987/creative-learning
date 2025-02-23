@@ -14,8 +14,8 @@ const Coursespage = () => {
     <div>
       <div className="container">
         {/* Category Dropdown */}
-        <Dropdown>
-          <Dropdown.Toggle variant="success" id="dropdown-category">
+        <Dropdown  className="mt-5 ms-0">
+          <Dropdown.Toggle variant="success" id="dropdown-category" className="bg-success text-white">
             Category
           </Dropdown.Toggle>
 

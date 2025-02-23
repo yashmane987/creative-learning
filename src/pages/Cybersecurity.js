@@ -15,7 +15,7 @@ const Cybersecurity = () => {
     <div>
       <div className="container">
         {/* Category Dropdown */}
-        <Dropdown>
+        <Dropdown className="mt-5 ms-0">
           <Dropdown.Toggle variant="success" id="dropdown-category">
             Category
           </Dropdown.Toggle>
