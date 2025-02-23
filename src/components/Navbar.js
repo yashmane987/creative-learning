@@ -48,7 +48,7 @@ const Navbar = () => {
           </li>
         </ul>
         <Link to="/contactus">
-          <button className="contact-btn">Contact</button>
+          <button className="contact-btn float-end me-3">Contact</button>
         </Link>
       </nav>
     </div>
