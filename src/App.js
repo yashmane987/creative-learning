@@ -14,6 +14,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import Footer from './components/Footer';  
 import Navbar from './components/Navbar';  
 import Cybersecurity from './pages/Cybersecurity';
+import Webdevelopment from './pages/Webdevelopment';
+import BlogPage from './pages/BlogPage';
 
 function App() {
   return (
@@ -25,9 +27,11 @@ function App() {
         <Route path='/courses' element={<Coursespage />} />
         <Route path='/certificate' element={<Certificatepage />} />
         <Route path='/cybersecurity' element={<Cybersecurity />} />
+        <Route path='/webdevelopment' element={<Webdevelopment />} />
         <Route path='/features' element={<Featurespage />} />
         <Route path='/reviews' element={<Reviewspage />} />
         <Route path='/policy' element={<Policypage />} />
+        <Route path='/blog' element={<BlogPage/>} />
         <Route path='/contactus' element={<ContactUspage />} />
       </Routes>
       <Footer /> {/* Moved outside of <Routes> */}

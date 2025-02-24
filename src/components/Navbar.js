@@ -43,7 +43,12 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#policy">
-              <Link to="/policy">Policy</Link>{" "}
+              <Link to="/policy">Policy</Link>
+            </a>
+          </li>
+          <li>
+            <a href="#blog">
+              <Link to="/blog">Blog</Link>
             </a>
           </li>
         </ul>

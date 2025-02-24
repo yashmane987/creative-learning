@@ -20,6 +20,7 @@ import {Link} from 'react-router-dom';
             <li><Link to = "/features">Features</Link></li>
             <li><Link to = "/reviews">Reviews</Link></li>
             <li><Link to = "/policy">Policy</Link></li>
+            <li><Link to = "/blog">Blog</Link></li>
             <li><Link to = "/contactus">Contact</Link></li>
           </ul>
         </div>
