@@ -614,7 +614,6 @@
 
 /* end gallery css */
 
-/* privacy policy page css */
 /* PrivacyPolicy.css */
 .privacy-policy-container {
   padding: 30px;
@@ -706,7 +705,7 @@ strong {
 }
 /* App.css किंवा PrivacyPolicy.css मध्ये */
 .privacy-policy-container {
-  padding-top: 80px;  
+  padding-top: 40px;  
 }
 
 /* Container for the certificate */
