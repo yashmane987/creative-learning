@@ -3,6 +3,7 @@ import './styles/styles.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import AboutUspage from './pages/AboutUspage';
+import Gallery from './pages/Gallery';
 import Coursespage from './pages/Coursespage';
 import Certificatepage from './pages/Certificatepage';
 import Featurespage from './pages/Featurespage';
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/aboutus' element={<AboutUspage />} />
+        <Route path='/gallery' element={< Gallery/>} />
         <Route path='/courses' element={<Coursespage />} />
         <Route path='/certificate' element={<Certificatepage />} />
         <Route path='/cybersecurity' element={<Cybersecurity />} />

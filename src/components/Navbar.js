@@ -19,6 +19,11 @@ const Navbar = () => {
               <Link to="/aboutus">About</Link>
             </a>
           </li>
+          <li>
+            <a href="#gallery">
+              <Link to="/gallery">Gallery</Link>
+            </a>
+          </li>
           <li className="dropdown">
             <a href="#courses">
               <Link to="/courses">Courses</Link>
@@ -53,7 +58,7 @@ const Navbar = () => {
           </li>
         </ul>
         <Link to="/contactus">
-          <button className="contact-btn float-end me-3">Contact</button>
+          <button className="contact-btn float-end me-2">Contact</button>
         </Link>
       </nav>
     </div>

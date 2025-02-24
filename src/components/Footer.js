@@ -16,6 +16,7 @@ import {Link} from 'react-router-dom';
           <ul>
             <li><Link to = "/">Home</Link></li>
             <li><Link to = "/aboutus">About</Link></li>
+            <li><Link to = "/gallery">Gallery</Link></li>
             <li><Link to = "/certificate">Certificate</Link></li>
             <li><Link to = "/features">Features</Link></li>
             <li><Link to = "/reviews">Reviews</Link></li>
